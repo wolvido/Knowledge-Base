@@ -1,7 +1,7 @@
 
 - MSDN recommends that all static files eg. images, javascript into web root folder named "wwwroot"
 
-#### The annoying prerequisites
+#### Exception page enable for dev env
 add this in program.cs:
 ```c#
 if (app.Environment.IsDevelopment())

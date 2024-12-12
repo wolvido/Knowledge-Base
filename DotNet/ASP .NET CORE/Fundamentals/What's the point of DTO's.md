@@ -80,5 +80,5 @@ _Of course, some major changes can't avoid including more than one person, e.g. 
 ___
 #### What if we map DTO's exactly as the Entities and NOT base it on use-case?
 Aside from the reasons explained above,  you're code will just... make no sense. 
-Sure it will add a layer of separation but it would make very little sense, If you decide to change the entities, then the DTO would just be an older version of your entities, keep this up and you'll end up with a DTO that is completely outdated an makes no sense and needs to be updated. Now if a DTO needs to be "updated", then that completely defeats the purpose of a DTO, an updated DTO would ruin frontend code and you would need to hunt and rewrite a lot of shit.
+Sure it will add a layer of separation but it would make very little sense, If you decide to change the entities, then the DTO would just be an older version of your entities, keep this up and you'll end up with a DTO that is completely outdated an makes no sense and needs to be updated. Now if a DTO needs to be "updated", then that completely defeats the purpose of a DTO, an updated DTO would ruin frontend code and you would need to hunt and rewrite a lot of shite.
 If you make DTO's based on use-case, then no matter how you change your entities your DTO's wont need unnecessary "updates" and they would actually serve their purpose.

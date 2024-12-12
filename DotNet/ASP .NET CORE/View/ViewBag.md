@@ -3,7 +3,7 @@ The syntactic sugar of ViewData. See [[ViewData]].
 >Do not use ViewData or ViewBag to pass model data, use [[Strongly Typed Views]] to pass model data. 
 >- ViewData or ViewBag is mostly used to pass meta data and other special cases see: [MVC ViewBag Best Practice](https://stackoverflow.com/questions/11262034/mvc-viewbag-best-practice). 
 >- This sample passes model data just to demonstrate how to pass data using View Data, to be beginner friendly. 
->And also because the stupid Harsha course uses "beginner friendly" shitty samples.
+>And also because the bad Harsha course uses "beginner friendly" bad samples.
 
 **Instead of doing ViewData like this:**
 ```html
@@ -40,6 +40,6 @@ See [[ViewData]] for the full context and sample.
 >[!Warning] Again
 >Do not use ViewData or ViewBag to pass model data, use [[Strongly Typed Views]] to pass model data. 
 >- This sample passes model data just to demonstrate how to pass data using View Bag, to be beginner friendly. 
->And also because the stupid Harsha course uses model data sample.
+>And also because the bad Harsha course uses model data sample.
 
 ![[Capture 27.png]]

@@ -106,7 +106,7 @@ public class PersonsListActionFilter : IActionFilter
 >**`context.ActionArguments`** cannot be accessed in **`OnActionExecuted`**, If you really need to, there is a way involving using **`HttpContext.Items`**.
 
 >[!info] disclaimer
->This sample is one of harshas stupid very specific sample, that is too specific to be used in any other way. 
+>This sample is one of harshas bad very specific sample, that is too specific to be used in any other way. 
 >Just use it as a reference to let you know one sample of its uses.
 >Either way you can extrapolate how to validate using Filters. Just add the logic in inside the `OnActionExecuting` or `OnActionExecuted`.
 #### ViewData in Action Filter

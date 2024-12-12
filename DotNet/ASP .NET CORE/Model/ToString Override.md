@@ -39,5 +39,5 @@ public async Task<List<Person>> GetAllPersons()
 ```
 ###### With `ToString` it will return
 ```json
-["PersonID: 231423534, Person Name: john, Email: @email.com, Date of Birth: 01/23/2032, Gender: super-gay"]
+["PersonID: 231423534, Person Name: john, Email: @email.com, Date of Birth: 01/23/2032, Gender: gay-maybe"]
 ```

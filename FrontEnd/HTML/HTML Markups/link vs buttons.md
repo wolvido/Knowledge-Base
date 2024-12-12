@@ -9,7 +9,7 @@ keywords: button vs a
   
 - Is the intention to send someone to another URL? Use a link  
 - Is it to trigger some on-page interactivity? Use a button.  
-Any deviation from those and you better know what you're fucking doing.  
+Any deviation from those and you better know what you're effing doing.  
   
 you can design a link as a button as long as the function is still a link  
   

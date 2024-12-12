@@ -1,9 +1,9 @@
-It can be used to create Filters in a Factory pattern(see: [[Class Factories]]), but fucking bullshit harsha course only teaches a very specific use-case, which is to combine the easy use of [[Filter Attribute]] but with the ability to inject dependencies, but whatever, fine let's learn that. (This is really hacky, but maybe it can be used, idk).
+It can be used to create Filters in a Factory pattern(see: [[Class Factories]]), but damn harsha course only teaches a very specific use-case, which is to combine the easy use of [[Filter Attribute]] but with the ability to inject dependencies, but whatever, fine let's learn that. (This is really hacky, but maybe it can be used, idk).
 
 So, in [[Filter Attribute]] you can apply the filter directly without using very long and hard to read **`TypeFilter`**, but you will not be able to inject anything, not even the logger, the workaround is to use **`IFilterFactory`** and **`Attribute`**.
 >If you don't know what I'm talking about, see [[Filter Attribute]] first.
 # How-To:
-First, is you just make a normal filter, not a [[Filter Attribute]], but create it in a way that the argument properties are public and the constructor does not construct the arguments.  Bare with me, this shit is hacky.
+First, is you just make a normal filter, not a [[Filter Attribute]], but create it in a way that the argument properties are public and the constructor does not construct the arguments.  Bare with me, this shite is hacky.
 The goal here is to let the Factory receive the arguments then it can directly set the properties of **`SampleActionFilter`**.
 ```c#
 public class SampleActionFilter : IActionFilter

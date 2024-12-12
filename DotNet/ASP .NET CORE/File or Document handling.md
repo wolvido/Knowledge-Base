@@ -1,7 +1,7 @@
 ---
 keywords: |-
   generate PDF CSV Excel 
-  generate reports and shit
+  generate reports and stuff
 ---
 generate PDF CSV Excel reports or upload them to db.
 # How-To?

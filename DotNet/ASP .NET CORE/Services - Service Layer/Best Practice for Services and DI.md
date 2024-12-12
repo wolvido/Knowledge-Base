@@ -16,7 +16,7 @@ Instead just inject normally in the controller.
 Do not call the dispose method of a service manually. Its the job of the [[IoC]] Container.
 #### DO NOT create captive dependencies
 That means injecting scoped or transient services in singleton services.
-A service should never depend on a service that has a shorter lifetime than its own, that will cause some bad shit.
+A service should never depend on a service that has a shorter lifetime than its own, that will cause some bad shite.
 In a Transient or Scoped service, you can inject Transient, Scoped, or Singleton, but in a Singleton Service you cannot inject Transient and Scoped, only Singleton.
 #### Using Reference of a service instance
 Do not use a reference of a service instance outside of the controller or class.

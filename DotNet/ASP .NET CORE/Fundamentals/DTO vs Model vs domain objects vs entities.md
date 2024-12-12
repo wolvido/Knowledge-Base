@@ -1,4 +1,4 @@
-Harsha that dumb bitch, for him models and entities and domain models are all fucking the same. Except for DTO. Jesus christ. Or maybe he is right, gpt also calls domain models as entities.
+Harsha that dumb bitch, for him models and entities and domain models are all the same. Except for DTO. Jesus christ. Or maybe he is right, gpt also calls domain models as entities.
 will have to wait for him to clear his nonsense in the clean architecture section.
 
 My understanding is they are all essentially the same, the general term for all of them is Domain models/Entities. 

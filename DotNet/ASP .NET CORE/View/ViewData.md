@@ -6,7 +6,7 @@
 >Do not use ViewData or ViewBag to pass model data, use [[Strongly Typed Views]] to pass model data. 
 >- ViewData or ViewBag is mostly used to pass meta data and other special cases see: [MVC ViewBag Best Practice](https://stackoverflow.com/questions/11262034/mvc-viewbag-best-practice). 
 >- This sample passes model data just to demonstrate how to pass data using `ViewData`, to be beginner friendly. 
->And also because the stupid Harsha course uses "beginner friendly" shitty samples.
+>And also because the bad Harsha course uses "beginner friendly" bad samples.
 
 >[!Warning] Another Warning
 >If you really need to use ViewData. Use [[ViewBag]] instead, it is the syntactic sugar version. But again, ViewData or ViewBag is rarely used, use [[Strongly Typed Views]].
