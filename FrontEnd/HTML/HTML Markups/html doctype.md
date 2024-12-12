@@ -1,0 +1,1 @@
+![[Knowledge Base/FrontEnd/HTML/HTML Fundamentals/html doctype|html doctype]]

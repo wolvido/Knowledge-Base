@@ -1,0 +1,1 @@
+Finish this note and implement [[How a Controller finds a view]] in the note

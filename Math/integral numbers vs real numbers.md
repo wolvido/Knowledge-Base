@@ -1,0 +1,3 @@
+Real numbers include integers, but also include rational, irrational, whole and natural numbers. Integers are a type of real number that just includes positive and negative whole numbers and natural numbers.
+
+[https://cdn-academy.pressidium.com/academy/wp-content/uploads/2021/02/classification-of-numbers-diagram.png](https://cdn-academy.pressidium.com/academy/wp-content/uploads/2021/02/classification-of-numbers-diagram.png)

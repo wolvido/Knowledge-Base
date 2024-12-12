@@ -1,0 +1,1 @@
+When copying figma images, check if the figma image is in **fill** if it is, you need to use `object-fit: scale-down;`.

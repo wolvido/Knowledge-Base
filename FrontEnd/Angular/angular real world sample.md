@@ -1,0 +1,1 @@
+[gothinkster/angular-realworld-example-app: Exemplary real world application built with Angular](https://github.com/gothinkster/angular-realworld-example-app)

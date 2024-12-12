@@ -1,0 +1,1 @@
+Usually used in API methods if the data is not found HTTP 404

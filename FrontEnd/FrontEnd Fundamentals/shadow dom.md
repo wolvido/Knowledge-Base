@@ -1,0 +1,1 @@
+A shadow DOM or shadow tree is a hierachy of elements, same as the hierarchy of any HTML document, that coexists with the document's tree and other trees, but is completely independent from them. Among other things, this characteristic allows trees to have their own classes and IDs that don't interfere with the classes and IDs of other trees.

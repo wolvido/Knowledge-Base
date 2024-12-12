@@ -1,0 +1,1 @@
+- sometimes you dont need to js or jquery it, sometimes the solution exists in just css

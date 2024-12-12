@@ -1,0 +1,1 @@
+make sure the children doesnt have flex-shrink: 0 or flex: x 0 x.

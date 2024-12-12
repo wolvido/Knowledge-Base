@@ -1,0 +1,1 @@
+https://explore.skillbuilder.aws/learn/course/external/view/elearning/17564/aws-card-clash-an-architecture-design-game?trk=6b0204be-325e-41b8-9f10-97c999a66ec1&sc_channel=sm
