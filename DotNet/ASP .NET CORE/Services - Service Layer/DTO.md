@@ -147,6 +147,9 @@ This approach makes it easier to maintain and update your code since changes in 
 >[!important]
 >Don't get confused, you only need to create DTO's per-use case that have different properties from the each other, so its ok to reuse DTO if the Use-case can use the same DTO.
 #### View Model DTO
+>[!info]
+>reference: lecture 334: register view
+
 This is a different kind of DTO, this DTO is only used for, [[Strongly Typed Views]], since they need their own models, so you need to make one.
 Don't get confused with needing a view model, DTO is what harsha uses as view models. 
 Essentially this is used to send data from view to the controller, make a view DTO that is only for the transfer of data from View to Controller. If using [[Clean Architecture]], you can store this DTO in the [[UI Layer]].
@@ -173,8 +176,14 @@ public IActionresult Register(RegisterDTO registerDTO) //register DTO binds the 
 	AccountResponse accountResponse = _accountService.AddAccount(accountRequest);
 }
 ```
-
 Now this way UI layer has no knowledge of the service layer, and you can also develop them independently, you only need to map it later.
+#### BUT wait
+The problem with the above is Harsha doesn't really have a DTO and separate ViewModel folder, he treats both as the same. He specifically said "also known as View Model".
+
+In the FruitFund Project, I decided to use binding View Models e.g.`RegisterPersonViewModel.cs`. 
+- My main argument is Views are very different from services and their methods and DTO. Since methods are coupled to DTO's in a way (methods output and input DTO), so if you couple DTO to a View, it will couple view to the service methods and either you mold service methods to the view or you mold the view to what the methods want. It's coupled essentially.
+- In the case of FundPulse, I had to mold the view to obey the methods by... using view models.
+- So... lets use view models.
 #### What next?
 - We also need to validate the data in DTO. see [[DTO validation]].
 

@@ -9,7 +9,7 @@ they are both generic and used the same way except:
 - It's children also cannot be block(starts at the next line), its children can only be inline(starts within the line).
 - Only use span if the element and its neighbors start inline and its children are all inline. 
 - If inside a span has a div in a group of spans, then by definition it creates a second line and semantically does not make sense. Because a span by definition does not take up height and only takes up width as per its content.
-- A span cannot take up height but it can take up size up to its parents size, ==solong as its all in one line, you can use span like a div.==
+- A span cannot take up height but it can take up size up to its parents size, ==so long as its all in one line, you can use span like a div.==
 
 
 

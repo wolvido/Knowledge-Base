@@ -4,7 +4,7 @@
 >If you really need to theres a workaround, but if you are using jquery and other libraries, it will be loaded twice. workaround: https://github.com/aspnet/Mvc/issues/2910#issuecomment-356276338
 >
 >The workaround is to essentially create a special `_Layout` for partial views that has its own [[Section Layout Views]], then apply the layout to the partial views.
-###### Partial Views are views that cannot be invoked individually by a controller. It is invoked by a other views to be part of the bigger view. 
+###### Partial Views are views that cannot be invoked individually by a controller. It is invoked by other views to be part of the bigger view. 
 Can be used as a reusable BEM block to be invoked anywhere or if you need anything to be reusable, like a razor function on many views. Very useful for DRY. 
 For Example, you made a table or a navigation partial view and you want to reuse that view into many normal views.
 >[!warning]

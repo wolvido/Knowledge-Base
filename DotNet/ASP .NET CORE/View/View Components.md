@@ -9,7 +9,7 @@
 Basically partial views, but capable of handling complex server side logic. Partial views cannot do server-side logic, the controller should not do logic for a partial view. Instead, you use a View Component. see [[Partial Views]] for detalye.
 This is used for self-contained views that can be placed anywhere, the view component must have input, otherwise it is a partial view.
 ## How to View Component?
-#### First the annoying necessary nonsense in Program.cs
+#### First Program.cs
 make sure to add:
 ```c#
 builder.Services.AddControllersWithViews();
