@@ -1,0 +1,3 @@
+- You can use [[Delegate]] data type to pass a function prop to a child ViewModel.
+	- DO not register the viewmodels with delegates into simple IOC because they cant read that shit. 
+		- just load then new style

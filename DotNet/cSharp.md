@@ -1,7 +1,7 @@
 **``
 [[Class]]
 [[Conversions]]
-[[Errors]]
+[[Knowledge Base/DotNet/cSharp/Errors]]
 [[Fundamentals]]
 [[Keywords and Additional Material]]
 [[LINQ]]

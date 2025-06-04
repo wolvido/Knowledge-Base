@@ -1,0 +1,5 @@
+- if you need to call an asynchronous service method on constructor, first contain it in an asynchronous Initialize method and call that method in the constructor, store its result in a `_ = InitializeAsyncX(int sample)`. Fire and Forget method.
+	- This can cause race conditions, use with caution. If you find that data is missing, then check your fire and forget loaders.
+- If you need to change a property while changing another, do the change on the setter of the property to be changed.
+- Use a private settter or getter, if need be.
+- Dialog host does not inherit the parents tree. so better to call it programmatically.

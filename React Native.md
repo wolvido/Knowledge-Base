@@ -1,20 +1,23 @@
-#### To learn
-- [ ] state management, what even is state.
-#### notes
-- React Native environment is ficinky. Sometimes you need to restart the IDE and clear all errors in order for some changes to work.
-#### emulation
-Emulate:
+[[cFSD-R Architecture]]
+#### Emulation
 ```bash
-C:\Users\User\AppData\Local\Android\Sdk\cmdline-tools\bin
+//navigate
+cd C:\Users\User\AppData\Local\Android\Sdk\cmdline-tools\bin
 
+//get the name
 avdmanager list avd
 
-C:\Users\User\AppData\Local\Android\Sdk\emulator
+//navigate
+cd C:\Users\User\AppData\Local\Android\Sdk\emulator
 
+//load
 emulator -avd <name of device>
+emulator -avd Medium_Tablet_API_35
+emulator -avd Medium_Tablet_API_35 -no-snapshot-load
 ```
-
 Start project:
 ```bash
 npx expo start
 ```
+#### Development Tools
+- run watch task `Ctrl+Shift+B` to track import errors on whole codebase

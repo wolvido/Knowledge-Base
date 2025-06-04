@@ -13,3 +13,6 @@ Expo Doctor is a command line tool used to diagnose issues in your Expo project.
 ```bash
 npx expo-doctor
 ```
+
+
+For deleting unused and updating node modules, use: `expo update`.

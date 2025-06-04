@@ -1,0 +1,2 @@
+The goal of a project architecture is to have high cohesion and low coupling.
+[Cohesion and Coupling: the difference · Enterprise Craftsmanship](https://enterprisecraftsmanship.com/posts/cohesion-coupling-difference/)

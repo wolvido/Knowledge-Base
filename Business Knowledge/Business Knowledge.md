@@ -1,0 +1,3 @@
+- They offer service mainly, its subscription based, not neccesarily products.
+- they use local servers to cheap out on server costs.
+- 

@@ -1,3 +1,6 @@
+---
+keywords: merge vs rebase
+---
 #### How does git really work? What's the point of it?
 First, you have to know that there are many types of git development style.
 In this note we will use Trunk-Based Development, this is a widespread style of git.
@@ -28,7 +31,7 @@ Git will attempt to merge the changes between your branch and `main`, but since 
 1. **No conflicts**: If D and D2 modify different files or different parts of the same file, Git will automatically merge the changes.
 2. **Merge conflicts**: If both D and D2 modify the same lines of code or closely related parts of the code, Git won't know how to combine them automatically. It will pause the merge, mark the conflicting areas in the affected files, and ask you to manually resolve the conflicts.
 After resolving any conflicts (if there are any), you commit the merge into main, and the history would look like this:
-- `main`: A → B → C → D2 → M 
+- `main`: A → B → C → D2 → M
 **M is the combined changes of D and D2 after resolving**
 ##### Keep in mind there are three types of merging:
 ###### **Normal Merge**

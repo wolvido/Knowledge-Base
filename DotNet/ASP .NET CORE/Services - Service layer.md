@@ -1,5 +1,5 @@
 Service is a class that contains the business logic. This is where the business logic should be.
-The service is in the middle of the presentation layer and the data layer. It calculates and validates, from the data layer to be sent to the presentation layer. Presentation layer is the controllers and views.
+The service is in the middle of the presentation layer and the data layer/infrastructure. It calculates and validates, from the data layer to be sent to the presentation layer. Presentation layer is the controllers and views.
 >[!note]
 >What is IoC or DI?
 >see:[[IoC]]
@@ -116,8 +116,15 @@ builder.Services.AddTransient<ICitiesService, CitiesService>();
 It Automatically injects `CitiesService` to the controller if the controller asks for an `ICitiesService` .
 >[!warning] Important
 >You can inject a service into another service just like you would in the controller. Just make sure you don't create a Captive Dependency. see [[Best Practice for Services and DI]] for more info on Captive Dependency.
+##### What exactly is a service? what makes a group of methods a service?
+- a service serves a single responsibility that you define to solve a business problem. 
+- sample; business has a cart, so you make a:
+	- CartService - with methods such as the CheckoutCart(), ValidateCart(), etc...
+- The scope of a service depends on how you define the business problem, there can be two correct ways to do it, its more of an art, just keep in mind to balance cohesiveness and coupling.
+- When designing a service, keep in mind the goal of a service is behavior, so more likely it will need one or more entities and will not make sense if it only has a dedicated entity.  
+	- For example a CartService will more likely need  `Cart`, `User`, `PaymentMethod`, `Order`, etc...
 # What next?
-- What if you need to reference a Model/Entity in your Services? You create another separate class library for your Models/Entities. See: [[Entities]]. The Services must not use models used by the view, they must use a separate model/entity class library. The same principle applies to other layers, it is good practice to separate the layers, that is why we separated the Services and the ServiceContracts. 
+- What if you need to reference a Model/Entity in your Services? You create another separate class library for your Models/Entities. See: [[Knowledge Base/DotNet/ASP .NET CORE/Services - Service Layer/Entities]]. The Services must not use models used by the view, they must use a separate model/entity class library. The same principle applies to other layers, it is good practice to separate the layers, that is why we separated the Services and the ServiceContracts. 
 - [[how big is a service layer]]? how much responsibility should a single service have? If I need a service, how do I even begin to make one?
 - There also this thing called DTO, where it is used by the service to transfer data, essentially a view model, In the sample above we transferred a decimal type. We need to use DTO for encapsulation. see [[DTO]].
 - What if you don't need the service for the whole controller, what if you just need to inject the service in one action method only. See: [[Service Method Injection]]. But in most cases this is not used because its not extensible to other action methods.

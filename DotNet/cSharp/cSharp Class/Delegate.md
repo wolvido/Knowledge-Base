@@ -1,5 +1,7 @@
 ---
-keywords: like interface but not interface
+keywords: |-
+  like interface but not interface
+  like interface but for methods
 ---
 #cSharp 
 Delegate are basically method data types, where you can store a method in a delegate variable as long as that method follows the contract, meaning same return type, same parameters.

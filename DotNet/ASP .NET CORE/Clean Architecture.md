@@ -1,7 +1,7 @@
 ---
 keywords: clean arch
 ---
-Clean architecture is the invert of N-architechture. Instead of "business logic" depend on "data access logic", this dependency is inverted; it's "data access logic" depend on "business logic".
+Clean architecture is the invert of N-architecture. Instead of "business logic" depend on "data access logic", this dependency is inverted; it's "data access logic" depend on "business logic".
 This makes the business logic cleanly separated, independent of data storage, UI, and is highly testable.
 Also called "Onion Architecture" and "Domain-driven Design".
 

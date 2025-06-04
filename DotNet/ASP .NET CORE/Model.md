@@ -59,7 +59,7 @@ see [[FromQuery and FromRoute]] for more details.
 >[!question]  What if you need to accept multiple `Book` objects or multiple `author` properties? 
 >see [[Collection Binding]].
 #### Folder Structure:
-Models are usually stored in [[Entities]], also usually there are no "View Models", the more general term is [[DTO]].
+Models are usually stored in [[Knowledge Base/DotNet/ASP .NET CORE/Services - Service Layer/Entities]], also usually there are no "View Models", the more general term is [[DTO]].
 
 ---
 ### What do I need to know after this?

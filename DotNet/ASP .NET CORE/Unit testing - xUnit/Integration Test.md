@@ -75,7 +75,7 @@ We will use **`WebApplicationFactory`** to create and configure a separate test 
 It will essentially make us a whole test environment, for testing.
 ###### In your test project add a **`CustomWebApplicationFactory.cs`**:
 ```c#
-public class CustomWebApplicationFactory : WebApplicationFactory<Program> //this is where partial class program is imprted
+public class CustomWebApplicationFactory : WebApplicationFactory<Program> //this is where partial class program is imported
 {
 	//here we configure the webhost
 	protected override void ConfigureWebHost(IWebHostBuilder webHostbuilder)
@@ -150,7 +150,7 @@ public class PersonsControllerIntegrationTest : IClassFixture<CustomWebApplicati
 >[!warning] Important
 >in some cases, the project might not use asynchronous action methods, in this sample we used asynchronous.
 >convert it to non-async when necesssary.
-# Integration testing with response body.]
+# Integration testing with response body.
 X-Unit has no built in feature to test the html DOM that was returned with the html response, in order to test the html DOM we have to install a third party package called fizzler.
 - in your test project, nuget install **Fizzler**.
 - and also **Fizzler.Systems.HtmlAgilityPack**.

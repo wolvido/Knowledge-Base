@@ -16,7 +16,7 @@ builder.Services.AddSingleton<ISampleService, SampleService>();
 ```
 ###  What does it mean?
 It means what the scope of the service is. It is when a service object is created by [[IoC]] Container and when it is destroyed.
-- Transient - will create a service object **Per injection/per call/per DI request**(do not confuse with per request)  and destroy it at the end of a scope(when the http request is completed). 
+- Transient - will create a service object **Per injection/per call/per DI request**(do not confuse with per http request)  and destroy it at the end of a scope(when the http request is completed). 
 - Scoped - will create a service object per **scope(browser http request)** and also destroy it at the end of a scope(when the request is completed).
 - Singleton - will create a service object for the entire application lifetime and destroyed at application shutdown.
 

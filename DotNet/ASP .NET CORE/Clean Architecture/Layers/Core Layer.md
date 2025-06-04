@@ -27,9 +27,9 @@ The Core project will contain the Business Logic and the Domain Layer. If not yo
 	- If migrating from N-Architecture, copy paste all the DTO classes in the old DTO folder, leave everything else, only the DTO.
 - If your project requires enumerations, create the **"Enums"** folder inside Core. Store all your Enumerations there.
 - Also if you are migrating from another architecture, don't forget to install all the nuget packages from the old into Core project. In Visual studio, if you double click on the project name it will open the `csproj`; you will see all the installed packages.
-- Related Notes: [[Entities]], [[custom exceptions]], [[Repository]], [[Services - Service layer]], [[DTO]], [[DTO validation]].
+- Related Notes: [[Knowledge Base/DotNet/ASP .NET CORE/Services - Service Layer/Entities]], [[custom exceptions]], [[Repository]], [[Services - Service layer]], [[DTO]], [[DTO validation]].
 ##### **Question**:
-What's the difference between [[DTO]] and [[Entities]]?
+What's the difference between [[DTO]] and [[Knowledge Base/DotNet/ASP .NET CORE/Services - Service Layer/Entities]]?
 - Entities are the core models of the project, its what we build the project around, DTO is so that we don't expose the Entities outside core layer, see: [[DTO]].
 ###### ==Why DTO's in the Core?==
 - DTO's are the model's we use for the data that need to be exposed outside Core, while making sure entities are not exposed. So essentially to protect the Entities and separate concerns.  see: [[What's the point of DTO's]].

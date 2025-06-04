@@ -1,0 +1,1 @@
+[rest - When do I use path parameters vs. query parameters in a RESTful API? - Stack Overflow](https://stackoverflow.com/questions/30967822/when-do-i-use-path-parameters-vs-query-parameters-in-a-restful-api)

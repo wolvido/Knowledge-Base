@@ -5,7 +5,7 @@ keywords: class modifiers
 ###### Access Modifiers:  
 - public: The member is accessible from any code.
 - private: The member is accessible only within the containing type.
-- protected: The member is accessible within the containing type and its derived types.
+- protected: The member is accessible within this class and its derived types.
 - internal: The member is accessible within the current assembly. see [[What is Namespace, Assembly or Dynamically Linked Library (DLL)]]
 - protected internal: The member is accessible within the current assembly and its derived types.
 ###### Field Non-Access Modifiers:  

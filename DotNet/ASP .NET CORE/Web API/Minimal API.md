@@ -1,6 +1,6 @@
 In ASP.Net Core, Minimal API is the new way of doing API. The traditional Controller API uses controllers to map, _Minimal APIs_ define endpoints with logical handlers in lambdas or methods. see: [[Web API]] for Controller API sample.
 
-In Minimal API instead of using controllers, it is directly serve it on endpoints, just like [[Middleware]].
+In Minimal API instead of using controllers, you directly serve it on endpoints, just like [[Middleware]].
 ###### Sample
 Assuming we have the model `WeatherForecast`:
 ```c#

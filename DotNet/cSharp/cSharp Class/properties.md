@@ -39,8 +39,8 @@ for syntactic sugar use:
 ```C#
 public string Name  
 {  
-get => return _name;  
-set => _name = value;  
+	get => return _name;  
+	set => _name = value;  
 }  
 ```
 

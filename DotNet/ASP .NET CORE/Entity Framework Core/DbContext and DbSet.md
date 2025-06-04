@@ -11,8 +11,7 @@ A DbContext class is binded to an SQL Database and vice versa:![[Capture 42.png]
 	- **disclaimer**: in this sample we will use Azure SQL database. `Microsoft.EntityFrameworkCore.SqlServer` uses Azure SQL database provider.
 	- or you can use `Microsoft.EntityFrameworkCore.Sqlite` for SQLite.
 	- or for the full list of databases providers see: [Database Providers - EF Core | Microsoft Learn](https://learn.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)
-- ~~Then on the main project, you also have to install install `Microsoft.EntityFrameworkCore.SqlServer`, since different layer and all.~~~~
-~~
+- ~~Then on the main project, you also have to install install `Microsoft.EntityFrameworkCore.SqlServer`, since different layer and all.~~
 - If you are using [[Clean Architecture]], you put the DbContext in the [[Infrastructure Layer]], and also that's where you nuget install the dependencies.
 #### Naming Convention
 - postfix a DbContext file with "DbContext".

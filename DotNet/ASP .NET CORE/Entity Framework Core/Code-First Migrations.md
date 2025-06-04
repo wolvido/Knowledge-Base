@@ -22,6 +22,7 @@ When you run this command, EF Core will examine your DbContext and compare it wi
 - open tools tab, then Nuget Package Manager, then Package manager console.
 - Then on your Package Manager Console, make sure the Default Project: is set to the Entities class library, not the main project. If you don't see a Default Project, widen the console window.
 	- If using [[Clean Architecture]], make sure the Default Project: is set to the Infrastructure layer.
+	- Basically just set it to where the `DbContext`  is located.
 ###### Run the command: `Add-Migration MigrationName`
 `MigrationName` is the name of the migration file. This will generate the migration file.
 >[!note]
@@ -33,7 +34,8 @@ The first file is your migration. It contains two methods, up and down.
 - Up is executed while making changes to the tables or creating tables.
 - Down is executed if you rollback the migrations.
 These will be the method used when you implement your migration or roll it back.
-#### After creating the migrations, implement the migrations:
+#### Update-Database -Verbose
+After creating the migrations, implement the migrations:
 Go back to the console and Run the command: **`Update-Database -Verbose`**.
 Verbose means to show all the sql script.
 To undo a migration and delete the latest migration file, run `Remove-Migration`.

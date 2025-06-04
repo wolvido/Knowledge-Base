@@ -1,0 +1,2 @@
+- registered shit lives on memory.
+- you can also unregister it.

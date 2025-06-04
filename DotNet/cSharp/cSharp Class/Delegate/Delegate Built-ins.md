@@ -2,7 +2,7 @@
 Delegate built-ins are nothing special, there basically just delegates already made with their own return types and parameters. They are used instead of a custom delegate because developers already know how what their return types are or their parameters etc..
 
 in simple terms:
-- **Action** = some method that just does something but returns no output
+- **Action** = some method that accepts a defined type, does something but returns no output.
 - **Func** = some method that takes some parameters, computes something and returns a result
 - **Comparison** = some method that compares two objects of the same type and returns an int to indicate order
 - **Converter** = transforms Obj A into equivalent Obj B

@@ -1,0 +1,1 @@
+theres a use effect or a surface level code that changes a context state, which trigerrs a re-render, which also triggers the same piece of code, which then becomes an infinite loop
